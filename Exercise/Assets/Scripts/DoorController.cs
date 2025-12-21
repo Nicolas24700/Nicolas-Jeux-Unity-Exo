@@ -24,6 +24,10 @@ public class DoorController : TriggerController
                 UISystem.Instance.ShowPlayerWarning("Door is <b>locked</b>. You need to find the <b>key</b>.");
                 return false;
             }
+            else
+            {
+                InventorySystem.Instance.ConsumeItem(m_ItemController.UniqueID);
+            }
         }
 
         m_Animator.SetBool(IS_OPEN_PARAMETER, true);

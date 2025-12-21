@@ -20,17 +20,12 @@ public class ItemController : TriggerController
     protected override void Interact()
     {
         PickItem();
-
-        CanInteract = false;
     }
 
     private void PickItem()
     {
-        //TODO: Replace this with the correct implementation
-        throw new NotImplementedException("PickItem method is yet not implemented.");
-
-        //TODO: Store the item into the InventorySystem instance
-        //TODO: Disable interaction from Trigger
-        //TODO: Deactivate item GameObject
+        InventorySystem.Instance.StoreItem(UniqueID);
+        DisableInteraction();
+        m_Item.SetActive(false);
     }
 }
