@@ -1129,6 +1129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trigger_Door
       objectReference: {fileID: 0}
+    - target: {fileID: 5862506158353475553, guid: 9ed96ae1f0e663f45bf97de7901ae939, type: 3}
+      propertyPath: m_MessageToPlayer
+      value: Press <color=#FBC531><b>E</b></color> to open.
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8970993696980312514, guid: 9ed96ae1f0e663f45bf97de7901ae939, type: 3}
     m_RemovedGameObjects: []
@@ -1143,6 +1147,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3744049547260998467, guid: e65978ac02dabc84d8a31e3e3c4faf7b, type: 3}
+      propertyPath: m_MessageToPlayer
+      value: Congratulations ! You reach end of level. \nPress <color=#FBC531><b>E</b></color> 
+        to enter the next level.
+      objectReference: {fileID: 0}
     - target: {fileID: 4845315571703620685, guid: e65978ac02dabc84d8a31e3e3c4faf7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

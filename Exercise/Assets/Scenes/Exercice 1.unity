@@ -804,8 +804,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3744049547260998467, guid: e65978ac02dabc84d8a31e3e3c4faf7b, type: 3}
       propertyPath: m_MessageToPlayer
-      value: Congratulations ! You reach end of level. \nPress <color=#FBC531><b>E</b></color>
-        action to enter the next level.
+      value: Congratulations ! You reach end of level. \nPress <color=#FBC531><b>E</b></color> 
+        to enter the next level.
       objectReference: {fileID: 0}
     - target: {fileID: 4845315571703620685, guid: e65978ac02dabc84d8a31e3e3c4faf7b, type: 3}
       propertyPath: m_LocalPosition.x
