@@ -2,7 +2,7 @@
 
 public class DoorController : TriggerController
 {
-    private static readonly string IS_OPEN_PARAMETER = "Knock Knock";
+    private static readonly string IS_OPEN_PARAMETER = "IsOpen";
 
     [SerializeField] private Animator m_Animator;
     [SerializeField] private ItemController m_ItemController;
