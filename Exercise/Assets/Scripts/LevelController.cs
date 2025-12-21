@@ -12,13 +12,14 @@ public class LevelController : TriggerController
         Scene activeScene = SceneManager.GetActiveScene();
         int nextLevelIndex = activeScene.buildIndex + 1;
 
-        if (nextLevelIndex < SceneManager.sceneCountInBuildSettings)
+        if (nextLevelIndex >= SceneManager.sceneCountInBuildSettings)
         {
-            SceneManager.LoadScene(nextLevelIndex);
+            SceneManager.LoadScene(0);
+            return;
         }
         else
         {
-            UnityEngine.Debug.LogErrorFormat("Can't find any level with index {0}. Please add one to the Build Profiles", nextLevelIndex);
+            SceneManager.LoadScene(nextLevelIndex);
         }
     }
 }
