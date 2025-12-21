@@ -1034,7 +1034,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trigger_Door
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8970993696980312514, guid: 9ed96ae1f0e663f45bf97de7901ae939, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
