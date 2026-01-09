@@ -1,7 +1,12 @@
 # MMI 2026 - Bases
 
-# Setup
+# Fonctionnalités ajoutées
 
+- Script de respawn du personnage lorsqu'il tombe dans le vide (script repris et modifié à partir du script du playerRobot).
+- Une fois que le joueur a fini le dernier niveau, il peut se téléporter au tout premier niveau.
+
+# MMI 2026 - Bases
+# Setup
 ## Créer un nouveau projet depuis un Template
 
 > [!NOTE]
